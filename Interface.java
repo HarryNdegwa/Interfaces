@@ -8,10 +8,12 @@ public class Interface implements MyInterface {
 
     private static final String name = "Mike";
 
+    @Override
     public void helloo() {
         System.out.println("Helloo");
     }
 
+    @Override
     public String printName(String name) {
         return name;
     }
